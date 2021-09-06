@@ -1,0 +1,24 @@
+.title-steps {
+  //margin-top: 20px;
+  margin-bottom: 100px;
+  @extend %section-heading;
+}
+
+.permission-text {
+  margin-top: 200px;
+  margin-bottom: 40px;
+
+  font-weight: $small-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $middle-main-font-line-hight;
+}
+
+.steps-description {
+  width: 600px;
+
+  padding: 20px 15px 155px 15px;
+}
+
+.steps-button {
+  margin-top: 155px;
+}
