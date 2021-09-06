@@ -1,0 +1,112 @@
+%social-markup {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition: background-color $animation-duration $animation-type;
+}
+
+%section-heading {
+  display: block;
+
+  font-weight: $large-main-font-size-weight;
+  font-size: $heading-title-size;
+  line-height: $small-main-font-line-hight;
+}
+
+%main-button {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 200px;
+
+  padding: 17px 100px;
+
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+
+  background-color: rgba(255, 221, 201, 0.87);
+
+  transition-timing-function: $animation-type;
+  transition: background-color $animation-duration $animation-type;
+}
+
+%secondary-button {
+  padding: 3px 27px;
+
+  font-weight: $small-main-font-size-weight;
+  font-size: 18px;
+  line-height: $small-main-font-line-hight;
+
+  color: $footer-text-color;
+
+  cursor: pointer;
+  border-radius: 20px;
+  // border: 0 solid;
+
+  background-color: $current-color;
+
+  &:hover,
+  &:focus {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  &.current {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+%link-buttonUp {
+  padding: 0 20px 20px;
+
+  font-weight: $middle-main-font-size-weight;
+  font-size: 36px;
+  line-height: $middle-main-font-line-hight;
+
+  color: $link-button-color;
+
+  cursor: pointer;
+}
+
+%link-buttonDown {
+  padding: 10px 20px 30px;
+
+  font-weight: $middle-main-font-size-weight;
+  font-size: 18;
+  line-height: $middle-main-font-line-hight;
+
+  color: $link-button-color;
+
+  cursor: pointer;
+}
+
+%popular-button {
+  // margin: 50px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 175px;
+
+  padding: 17px 100px;
+
+  font-weight: 300;
+  font-size: 36px;
+  line-height: $upper-main-font-line-hight;
+
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+
+  background-color: #ffe8db;
+
+  transition-timing-function: $animation-type;
+  transition: background-color $animation-duration $animation-type;
+}
