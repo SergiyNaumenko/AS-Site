@@ -1,0 +1,46 @@
+.addiction-sectionUp {
+  display: flex;
+  padding-top: 55px;
+}
+
+.addiction-section {
+  display: flex;
+}
+
+.addiction-container {
+  width: 920px;
+
+  margin: 0 auto;
+}
+
+.addiction-sectionDown {
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.addiction-textLast {
+  margin-bottom: 90px;
+
+  font-weight: $small-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+.addiction-background {
+  background-color: $background-secondary-color;
+}
+
+.addiction-title {
+  font-weight: $large-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.addiction-text {
+  font-weight: $small-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.addiction-text:not(:last-child) {
+  margin-bottom: 40px;
+}
