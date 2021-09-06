@@ -1,0 +1,102 @@
+.fantasies-section {
+  display: flex;
+
+  padding-top: 55px;
+  padding-bottom: 75px;
+}
+
+.fantasies-container {
+  width: 875px;
+
+  margin: 0 auto;
+}
+
+// .direction-hea {
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .direction-hea:nth-child(3) {
+//   margin-bottom: 25px;
+// }
+
+// .visually-heading {
+//   position: relative;
+
+//   margin-bottom: 60px;
+
+//   font-weight: $small-main-font-size-weight;
+//   font-size: $heading-title-size;
+//   line-height: $large-main-font-line-hight;
+//   letter-spacing: 0.03em;
+
+//   color: rgba(0, 0, 0, 0.25);
+// }
+
+// .visually-heading:after {
+//   content: "";
+
+//   position: absolute;
+//   top: 15px;
+//   left: -340px;
+//   display: inline-flex;
+//   width: 155px;
+//   height: 0px;
+//   border: 7px solid rgba(255, 174, 129, 0.14);
+// }
+
+// .obsession-heading {
+//   @extend %section-heading;
+// }
+
+// .background {
+//   padding-bottom: 140px;
+
+//   background-color: $background-secondary-color;
+// }
+
+// .direction {
+//   margin-bottom: 70px;
+// }
+.fantasies-lastText {
+  margin-bottom: 305px;
+
+  font-weight: $small-main-font-size-weight;
+  font-size: $under-hero-title-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.fantasies-sectionDown {
+  display: block;
+
+  padding-top: 70px;
+  padding-bottom: 65px;
+
+  background-color: $background-secondary-color;
+}
+
+.fantasiesSeparate-container {
+  width: 1100px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.fantasies-containerDown {
+  position: relative;
+  width: 875px;
+
+  margin: 0 auto;
+}
+
+.fantasies-containerDown::before {
+  content: "";
+
+  display: inline-flex;
+
+  width: 874px;
+  height: 0px;
+
+  margin-bottom: 115px;
+
+  border: 1px solid #000000;
+}
