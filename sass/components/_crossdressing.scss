@@ -1,0 +1,41 @@
+.crossdressing-sectionUp {
+  display: flex;
+  padding-top: 55px;
+}
+
+.crossdressing-section {
+  display: flex;
+}
+
+.crossdressing-container {
+  width: 920px;
+
+  margin: 0 auto;
+}
+
+.crossdressing-sectionDown {
+  display: flex;
+  padding-bottom: 60px;
+}
+.crossdressing-textLast {
+  margin-bottom: 30px;
+
+  font-weight: $small-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+.crossdressing-background {
+  background-color: $background-secondary-color;
+}
+
+.crossdressing-title {
+  font-weight: $large-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.crossdressing-text {
+  font-weight: $small-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
