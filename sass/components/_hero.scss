@@ -1,0 +1,54 @@
+.hero {
+  max-width: 1460px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  // background: rgba(0, 0, 0, 0.26);
+
+  &__title {
+    // margin: 0 auto 30px;
+
+    font-weight: $large-main-font-size-weight;
+    font-size: $large-main-font-size;
+    line-height: $large-main-font-line-hight;
+  }
+
+  &__text {
+    margin: 0 auto 30px;
+
+    font-weight: $small-main-font-size-weight;
+    font-size: $small-main-font-size;
+    line-height: $small-main-font-line-hight;
+  }
+}
+
+.hero-overlay {
+  width: 100%;
+  // max-width: 1460px;
+  height: 635px;
+  padding-top: 105px;
+  padding-bottom: 105px;
+
+  background-image: url(../images/hero-image1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  //background: rgba(255, 255, 255, 0.02);
+
+  margin: 0 auto;
+}
+
+.hero-container {
+  width: 900px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.hero__button {
+  &:hover,
+  &:focus {
+    box-shadow: inset 8px 9px 13px #ffffff;
+  }
+  @extend %main-button;
+}
