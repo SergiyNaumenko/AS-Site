@@ -1,0 +1,82 @@
+.button-test {
+  @extend %secondary-button;
+  //   margin-top: 88px;
+  //   margin-left: auto;
+}
+
+.address-header {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  &__mail {
+    margin-left: auto;
+  }
+  &__mail:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__icon-mail,
+  &__icon-phone {
+    margin-right: 10px;
+  }
+}
+
+.phoneNumber {
+  margin-left: auto;
+  margin-right: 40px;
+  padding-top: 10px;
+}
+
+.contact-header__title {
+  display: inline-block;
+  margin-right: 20px;
+
+  padding: 15px 0;
+
+  font-weight: $small-main-font-size-weight;
+  font-size: 18px;
+  line-height: $small-main-font-line-hight;
+  letter-spacing: 0.02em;
+
+  fill: rgba(0, 0, 0, 0.52);
+  color: rgba(0, 0, 0, 0.52);
+  transition: color $animation-duration $animation-type;
+
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    color: $current-color;
+    fill: $current-color;
+  }
+}
+
+.contact-header__phone {
+  margin-right: 7px;
+}
+
+.address-header__link {
+  display: inline-block;
+  padding: 15px 0;
+
+  font-weight: $middle-main-font-size-weight;
+  font-size: 14px;
+  line-height: $middle-main-font-line-hight;
+  letter-spacing: 0.02em;
+
+  fill: $primary-text-color;
+  color: $primary-text-color;
+  transition: color $animation-duration $animation-type;
+
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    color: $current-color;
+    fill: $current-color;
+  }
+}
+
+.address:focus {
+  fill: $current-color;
+}
