@@ -1,0 +1,61 @@
+.occupation-section {
+  display: flex;
+
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+
+.main-container {
+  display: inline-flex;
+
+  width: 1070px;
+  padding: 50px 15px 0;
+  margin: 0 auto;
+  border-top: 7px solid rgba(255, 174, 129, 0.14);
+}
+
+.occupation {
+  justify-content: space-between;
+
+  &__item {
+    position: relative;
+    width: 370px;
+  }
+
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.8);
+  }
+
+  &__overlay::before {
+    position: absolute;
+  }
+}
+
+.occupation-heading {
+  width: 380px;
+  margin-right: 40px;
+
+  font-weight: $large-main-font-size-weight;
+  font-size: 34px;
+  line-height: $large-main-font-line-hight;
+}
+
+.product-overlay {
+  position: relative;
+  display: flex;
+}
+
+.occupation-text {
+  width: 640px;
+
+  font-weight: $small-main-font-size-weight;
+  font-size: $under-hero-title-size;
+  line-height: $small-main-font-line-hight;
+}
