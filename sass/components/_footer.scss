@@ -1,0 +1,11 @@
+.footer {
+  padding-top: 110px;
+  padding-bottom: 110px;
+
+  background-color: $background-footer-color;
+}
+
+.footer-info {
+  display: flex;
+  align-items: baseline;
+}
