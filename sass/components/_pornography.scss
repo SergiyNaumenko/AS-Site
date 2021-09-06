@@ -1,0 +1,45 @@
+.pornography-sectionUp {
+  display: flex;
+  padding-top: 55px;
+}
+
+.pornography-section {
+  display: flex;
+}
+
+.pornography-container {
+  width: 920px;
+
+  margin: 0 auto;
+}
+
+.pornography-sectionDown {
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.pornography-background {
+  background-color: $background-secondary-color;
+}
+.pornography-titleUp {
+  font-weight: $large-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.pornography-title {
+  margin-bottom: 30px;
+  font-weight: $large-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.pornography-text {
+  font-weight: $small-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.pornography-text:not(:last-child) {
+  margin-bottom: 30px;
+}
