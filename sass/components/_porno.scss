@@ -1,0 +1,220 @@
+.porno-text {
+  font-weight: $small-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.porno-textLast {
+  margin-bottom: 80px;
+
+  font-weight: $small-main-font-size-weight;
+  font-size: $upper-main-font-size;
+  line-height: $small-main-font-line-hight;
+}
+.porno-section {
+  display: flex;
+
+  padding-bottom: 455px;
+}
+
+.porno-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.porno-container {
+  position: relative;
+
+  width: 1020px;
+
+  margin: 0 auto;
+}
+
+.porno-container::after {
+  content: "";
+
+  display: inline-flex;
+
+  width: 990px;
+  height: 0px;
+
+  margin-top: 155px;
+
+  border: 1px solid #000000;
+}
+
+// .compulsive-section {
+//   display: flex;
+
+//   padding-top: 55px;
+//   padding-bottom: 470px;
+// }
+
+// .compulsive-obsessionSection {
+//   position: relative;
+
+//   display: block;
+
+//   padding-top: 110px;
+//   padding-bottom: 70px;
+
+//   background-color: #fff;
+// }
+
+.porno-compulsiveSection {
+  display: block;
+
+  //   padding-top: 65px;
+  padding-bottom: 470px;
+
+  background-color: #fff;
+}
+
+.compulsiveDirection {
+  margin-bottom: 420px;
+}
+
+.porno-list {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0px;
+
+  &__face {
+    margin-bottom: 20px;
+  }
+
+  &__card-downLeft {
+    position: absolute;
+    bottom: -160px;
+    left: 105px;
+
+    width: 360px;
+    height: 530px;
+
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+
+  &__card-downRight {
+    position: absolute;
+    bottom: -160px;
+    right: 95px;
+
+    width: 360px;
+    height: 530px;
+
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+
+  &__person {
+    margin-bottom: 30px;
+    padding: 0 10px;
+
+    align-items: flex-end;
+
+    font-family: $main-font-family;
+    font-weight: $large-main-font-size-weight;
+    font-size: $heading-title-size;
+    line-height: $middle-main-font-line-hight;
+    letter-spacing: 0.03em;
+  }
+
+  &__details-down {
+    //margin-bottom: 70px;
+
+    padding: 0 14px;
+
+    font-family: $main-font-family;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: $small-main-font-line-hight;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
+// .porno-containerDown {
+//   position: relative;
+
+//   width: 1020px;
+
+//   margin: 0 auto;
+// }
+
+.porno-list {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px;
+
+  &__face {
+    margin-bottom: 20px;
+  }
+
+  &__card-up {
+    position: absolute;
+    top: 225px;
+    left: 25%;
+
+    width: 500px;
+    height: 600px;
+    // margin-bottom: 40px;
+
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+  &__card-down {
+    width: 320px;
+    height: 530px;
+
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+
+  &__person {
+    margin-bottom: 30px;
+    padding: 0 10px;
+
+    align-items: flex-end;
+
+    font-family: $main-font-family;
+    font-weight: $large-main-font-size-weight;
+    font-size: $heading-title-size;
+    line-height: $middle-main-font-line-hight;
+    letter-spacing: 0.03em;
+  }
+
+  &__details-up {
+    margin-bottom: 25px;
+
+    padding: 0 15px;
+
+    font-family: $main-font-family;
+    font-weight: $small-main-font-size-weight;
+    font-size: $under-hero-title-size;
+    line-height: $middle-main-font-line-hight;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+  }
+  &__details-down {
+    margin-bottom: 10px;
+
+    padding: 0 14px;
+
+    font-family: $main-font-family;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: $small-main-font-line-hight;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+  }
+}
