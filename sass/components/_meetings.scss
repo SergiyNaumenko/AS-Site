@@ -1,0 +1,308 @@
+.meetings-hero {
+  padding: 0;
+
+  margin: 0 auto;
+  text-align: center;
+
+  &__title {
+    font-weight: $large-main-font-size-weight;
+    font-size: $heading-title-size;
+    line-height: $large-main-font-line-hight;
+    color: $footer-text-color;
+  }
+}
+
+.meetings-overlay {
+  max-width: 1460px;
+  height: 290px;
+
+  padding-top: 70px;
+  padding-bottom: 135px;
+
+  background-image: url(../images/smartphone_in_hands_blur.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+}
+
+.heroMeetings-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.meetings-container {
+  width: 820px;
+  margin-left: 340px;
+  margin-right: auto;
+}
+
+// .introduction-text:nth-last-child(3) {
+//   padding-bottom: 40px;
+// }
+
+// .button-direction {
+//   display: flex;
+
+//   justify-content: center;
+
+//   margin-top: 80px;
+// }
+
+// .question-section {
+//   position: relative;
+//   display: flex;
+//   padding: 40px 0 90px;
+//   margin: 0 auto;
+//   background-color: $background-secondary-color;
+// }
+
+// .question-section::after {
+//   content: "";
+
+//   position: absolute;
+//   bottom: 145px;
+//   left: 400px;
+//   display: inline-flex;
+//   width: 970px;
+//   height: 0px;
+//   border: 1px solid rgba(0, 0, 0, 0.25);
+// }
+
+// .container-questions {
+//   position: relative;
+//   width: 950px;
+//   margin: 0 auto;
+//   justify-content: center;
+
+//   // padding: 40px 60px 0;
+//   // margin-left: auto;
+//   // margin-right: auto;
+// }
+
+// .question-heading {
+//   margin-bottom: 90px;
+
+//   font-weight: $large-main-font-size-weight;
+//   font-size: $heading-title-size;
+//   line-height: $middle-main-font-line-hight;
+// }
+
+// .question-heading::after {
+//   content: "";
+
+//   position: absolute;
+//   top: 120px;
+//   left: 20px;
+//   display: inline-flex;
+//   width: 990px;
+//   height: 0px;
+//   border: 1px solid rgba(0, 0, 0, 0.25);
+// }
+
+// .question-text {
+//   font-weight: $small-main-font-size-weight;
+//   font-size: $under-hero-title-size;
+//   line-height: $small-main-font-line-hight;
+// }
+
+// .question-text:not(:last-child) {
+//   margin-bottom: 40px;
+// }
+
+// .allow-text {
+//   margin-top: 95px;
+//   font-weight: $small-main-font-size-weight;
+//   font-size: $under-hero-title-size;
+//   line-height: $small-main-font-line-hight;
+// }
+
+// .allow-text::after {
+//   content: "";
+
+//   position: absolute;
+//   bottom: 60px;
+//   left: 40px;
+//   display: inline-flex;
+//   width: 960px;
+//   height: 0px;
+//   border: 1px solid rgba(0, 0, 0, 0.25);
+// }
+
+.containers {
+  width: 900px;
+
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.separate-section {
+  background-color: $footer-text-color;
+  display: block;
+}
+
+.separate-list {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0px;
+
+  &__face {
+    margin-bottom: 20px;
+  }
+
+  &__card-down {
+    width: 360px;
+    height: 530px;
+
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+
+  &__person {
+    margin-bottom: 30px;
+    padding: 0 10px;
+
+    align-items: flex-end;
+
+    font-family: $main-font-family;
+    font-weight: $large-main-font-size-weight;
+    font-size: $heading-title-size;
+    line-height: $middle-main-font-line-hight;
+    letter-spacing: 0.03em;
+  }
+
+  &__details-down {
+    padding: 0 14px;
+
+    font-family: $main-font-family;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: $small-main-font-line-hight;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
+.meetings-section {
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 95px;
+}
+
+.meetings-heading {
+  position: relative;
+  display: flex;
+
+  margin-bottom: 55px;
+
+  font-family: $main-font-family;
+  font-weight: $large-main-font-size-weight;
+  font-size: $heading-title-size;
+  line-height: $middle-main-font-line-hight;
+}
+
+.meetings-heading::after {
+  content: "";
+
+  position: absolute;
+  bottom: 85px;
+  left: -200px;
+  display: inline-flex;
+  width: 157px;
+  height: 0px;
+  border: 7px solid rgba(255, 174, 129, 0.14);
+}
+
+.meetings-contact {
+  display: flex;
+
+  margin-bottom: 55px;
+
+  font-family: $main-font-family;
+  font-weight: $large-main-font-size-weight;
+  font-size: $heading-title-size;
+  line-height: $middle-main-font-line-hight;
+}
+
+.container-secondMeetings {
+  width: 1070px;
+
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.meetings-list {
+  display: flex;
+
+  padding-left: 180px;
+  border-radius: 0px;
+
+  &__face {
+    margin-bottom: 20px;
+  }
+
+  &__card-up {
+    width: 500px;
+    height: 600px;
+    margin-bottom: 40px;
+
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+  &__card-down {
+    width: 320px;
+    height: 530px;
+
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+
+  &__card-down:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  &__person {
+    margin-bottom: 30px;
+    padding: 0 10px;
+
+    align-items: flex-end;
+
+    font-family: $main-font-family;
+    font-weight: $large-main-font-size-weight;
+    font-size: $heading-title-size;
+    line-height: $middle-main-font-line-hight;
+    letter-spacing: 0.03em;
+  }
+
+  &__details-up {
+    margin-bottom: 25px;
+
+    padding: 0 15px;
+
+    font-family: $main-font-family;
+    font-weight: $small-main-font-size-weight;
+    font-size: $under-hero-title-size;
+    line-height: $middle-main-font-line-hight;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+  }
+  &__details-down {
+    margin-bottom: 10px;
+
+    padding: 0 14px;
+
+    font-family: $main-font-family;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: $small-main-font-line-hight;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+  }
+}
