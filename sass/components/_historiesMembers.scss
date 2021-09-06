@@ -1,0 +1,149 @@
+.history-hero {
+  padding: 0;
+
+  margin: 0 auto;
+  text-align: center;
+
+  &__title {
+    font-weight: $large-main-font-size-weight;
+    font-size: $small-main-font-size;
+    line-height: $large-main-font-line-hight;
+    color: $footer-text-color;
+  }
+}
+
+.history-overlay {
+  max-width: 1460px;
+  height: 305px;
+
+  padding-top: 120px;
+  padding-bottom: 130px;
+
+  background-image: url(../images/history.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+}
+
+.history-heading {
+  position: relative;
+  display: flex;
+
+  margin-bottom: 50px;
+
+  justify-content: center;
+
+  @extend %section-heading;
+}
+
+.history-heading:after {
+  content: "";
+
+  position: absolute;
+  top: 15px;
+  left: -85px;
+  display: inline-flex;
+  width: 120px;
+  height: 0px;
+  border: 7px solid rgba(255, 174, 129, 0.14);
+}
+.history-headingSecond {
+  display: flex;
+
+  margin-bottom: 40px;
+
+  justify-content: center;
+
+  @extend %section-heading;
+}
+
+.histories-section {
+  display: flex;
+
+  padding: 55px 0;
+}
+
+.history-section {
+  display: block;
+
+  padding-top: 160px;
+  padding-bottom: 55px;
+
+  background-color: $background-secondary-color;
+}
+
+.histories-container {
+  width: 1050px;
+
+  // margin: 0 auto;
+  // padding: 0 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.histories-list {
+  margin-bottom: 55px;
+}
+
+.histories-text {
+  font-weight: $small-main-font-size-weight;
+  font-size: $under-hero-title-size;
+  line-height: $small-main-font-line-hight;
+}
+
+.histories-text:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.histories-link {
+  padding: 20px 0 0 10px;
+  font-weight: $small-main-font-size-weight;
+  font-size: $under-hero-title-size;
+  line-height: $small-main-font-line-hight;
+
+  color: $primary-text-color;
+}
+
+.histories-link::after {
+  content: "";
+
+  display: inline-flex;
+  left: 190px;
+  width: 1020px;
+  height: 0px;
+
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.historiesSeparate-section {
+  padding-top: 10px;
+  padding-bottom: 110px;
+}
+
+.historiesSeparate-container {
+  width: 1100px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.historiesSeparate-container::before {
+  content: "";
+
+  display: inline-flex;
+
+  width: 990px;
+  height: 0px;
+
+  margin: 70px 50px 55px;
+
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.button-mainDirection {
+  display: flex;
+
+  justify-content: center;
+}
